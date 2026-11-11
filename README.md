@@ -6,14 +6,13 @@ A static, responsive cybersecurity portfolio published with GitHub Pages.
 
 Open `index.html` in a browser, or serve this folder with any static file server. The site has no build step or runtime dependencies.
 
-## Publish with GitHub Pages
+## Publish at the account root
 
-1. Push the repository to its `main` branch.
-2. Open **Settings → Pages** in the repository.
-3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-4. In **Actions**, open **Publish portfolio**. If its latest run did not succeed before Pages was enabled, choose **Run workflow** on `main`.
+GitHub requires a user-site repository named `dexter16-o.github.io` to publish at `https://dexter16-o.github.io/`. This repository is currently named `Personal_Portfolio`, so rename it in **Settings → General → Repository name** (or copy the site into a new repository with the required name).
 
-The site URL for this repository is `https://dexter16-o.github.io/Personal_Portfolio/`.
+Then open **Settings → Pages**, set **Source** to **GitHub Actions**, and open **Actions → Publish portfolio**. If no run succeeds after Pages is enabled, choose **Run workflow** on `main`.
+
+The target site URL is `https://dexter16-o.github.io/`.
 
 ## Personalize the content
 
