@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dhruv Patel’s portfolio: practical software projects and a growing focus on cybersecurity.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dhruv Patel | Cybersecurity portfolio">
+    <meta property="og:description" content="Practical software projects, system thinking, and a growing focus on cybersecurity.">
+    <meta property="og:url" content="https://dexter16-o.github.io/Personal_Portfolio/">
+    <title>Dhruv Patel | Cybersecurity portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wdth,wght@100,300;100,400;100,500;125,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="#top" aria-label="Dhruv Patel, home">
+          <span class="brand__name">Dhruv Patel</span>
+          <span class="brand__role">Cybersecurity portfolio</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#focus">Focus</a>
+          <a href="#about">About</a>
+          <a href="https://github.com/Dexter16-o" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+
+        <details class="mobile-nav">
+          <summary>Menu</summary>
+          <nav class="mobile-nav__links" aria-label="Mobile navigation">
+            <a href="#work">Work</a>
+            <a href="#focus">Focus</a>
+            <a href="#about">About</a>
+            <a href="https://github.com/Dexter16-o" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="container hero__inner">
+          <figure class="system-map" aria-labelledby="map-caption">
+            <figcaption class="system-map__caption" id="map-caption">
+              <span>ClipShare system map</span>
+              <span>Two transfer paths</span>
+            </figcaption>
+
+            <div class="system-map__route">
+              <p class="route-label">
+                <span class="route-label__name">Online sync</span>
+                <span class="route-label__detail">Server-sent events</span>
+              </p>
+              <ol class="route-list" aria-label="Online sharing path">
+                <li>
+                  <span class="route-step__title">Device A</span>
+                  <code class="route-step__detail">source</code>
+                </li>
+                <li>
+                  <span class="route-step__title">Share route</span>
+                  <code class="route-step__detail">/api/share</code>
+                </li>
+                <li>
+                  <span class="route-step__title">Event stream</span>
+                  <code class="route-step__detail">/api/stream</code>
+                </li>
+                <li>
+                  <span class="route-step__title">Device B</span>
+                  <code class="route-step__detail">receiver</code>
+                </li>
+              </ol>
+            </div>
+
+            <div class="system-map__route">
+              <p class="route-label">
+                <span class="route-label__name">Offline QR</span>
+                <span class="route-label__detail">No internet connection</span>
+              </p>
+              <ol class="route-list" aria-label="Offline QR sharing path">
+                <li>
+                  <span class="route-step__title">Text or code</span>
+                  <code class="route-step__detail">payload</code>
+                </li>
+                <li>
+                  <span class="route-step__title">QR code</span>
+                  <code class="route-step__detail">generate</code>
+                </li>
+                <li>
+                  <span class="route-step__title">Camera scan</span>
+                  <code class="route-step__detail">read</code>
+                </li>
+                <li>
+                  <span class="route-step__title">Device B</span>
+                  <code class="route-step__detail">receiver</code>
+                </li>
+              </ol>
+            </div>
+          </figure>
+
+          <div class="hero__copy">
+            <h1 id="hero-title">Look closer. Build safer.</h1>
+            <div class="hero__support">
+              <p class="lead">I’m Dhruv Patel, exploring cybersecurity through practical software projects.</p>
+              <div class="hero__actions">
+                <a class="button button--primary" href="#work">Explore my work</a>
+                <a class="button button--secondary" href="https://github.com/Dexter16-o" target="_blank" rel="noopener noreferrer">Connect on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work" aria-labelledby="work-title">
+        <div class="container work-layout">
+          <div class="section-intro">
+            <h2 id="work-title">One project, two transfer paths.</h2>
+            <p>ClipShare shares text and code between devices, online or offline.</p>
+          </div>
+
+          <div class="project-detail">
+            <dl class="project-facts">
+              <div>
+                <dt>Online</dt>
+                <dd>Node.js and Express sync updates through server-sent events.</dd>
+              </div>
+              <div>
+                <dt>Offline</dt>
+                <dd>QR codes move a payload without an internet connection.</dd>
+              </div>
+            </dl>
+            <a class="text-link" href="https://github.com/Dexter16-o/Clip-share" target="_blank" rel="noopener noreferrer">Read the ClipShare repository</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section focus-section" id="focus" aria-labelledby="focus-title">
+        <div class="container focus-layout">
+          <div class="section-intro">
+            <h2 id="focus-title">Where I’m looking closer.</h2>
+            <p>Topics I’m exploring as I grow toward cybersecurity.</p>
+          </div>
+
+          <dl class="focus-list">
+            <div>
+              <dt>Application security</dt>
+              <dd>Follow how input moves through an app and its trust boundaries.</dd>
+            </div>
+            <div>
+              <dt>Network fundamentals</dt>
+              <dd>Understand what travels between clients, services, and devices.</dd>
+            </div>
+            <div>
+              <dt>Secure design</dt>
+              <dd>Think about risk while software decisions are still flexible.</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="container about-layout">
+          <h2 id="about-title">A practical, curious approach.</h2>
+          <p>I’m a software builder with a growing focus on cybersecurity. I like understanding how systems fit together, where their boundaries are, and what happens when they’re tested.</p>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-layout">
+          <div>
+            <h2 id="contact-title">Want to compare notes?</h2>
+            <p>Reach out through GitHub. I’m interested in thoughtful conversations about software and security.</p>
+          </div>
+          <a class="button button--primary" href="https://github.com/Dexter16-o" target="_blank" rel="noopener noreferrer">Visit my GitHub profile</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p class="site-footer__name">Dhruv Patel</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#work">Work</a>
+          <a href="#focus">Focus</a>
+          <a href="#about">About</a>
+          <a href="https://github.com/Dexter16-o" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+        <p class="site-footer__note">Built with care and published on GitHub Pages.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
